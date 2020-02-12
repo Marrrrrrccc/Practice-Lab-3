@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="event.css">
+    <script src="event.js"></script>
+</head>
+<body>
+<form>
+    <div class="edit"><label>Event Type:</label>
+    <select required>
+        <option selected>Choose one</option>
+        <option>Birthday</option>
+        <option>Marriage</option>
+        <option>JS Prom</option>
+        <option>Seminar on sex</option>
+        <option>Graduation</option>
+    </select><br>
+    <label>Event Title: </label><input type="text" required><br>
+    <label>Event Dates:<input type="date" required> To <input type="date"></label><br>
+    <label>Posting date: <input type="date" required></label><br>
+    <input type="checkbox">Is registration Required? <br>
+    <input type="checkbox">Is this event associated with family programs <br>
+    <input type="checkbox">Upon registration completion, Are Users to Receive an Auto Generated Email?<br>
+    <input type="checkbox">Is There a Point of Contact? <br>
+    <input type="checkbox">Is there a Hosting Command Point of Contact?<br><br>
+    <center><button type="submit" onclick="sent()">Save</button><button type="reset">Clear</button></center></div>
+</form>
+    
+</body>
+</html>
