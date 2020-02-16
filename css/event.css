@@ -1,1 +1,24 @@
-div.edit{margin-left: auto;margin-right: auto;width: 35em;}
+.header {
+    border-style:solid ;
+    border-color: black;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    text-align: center;
+}
+body{
+    font-size: large;    
+}
+
+.form{
+margin-left: auto;
+margin-right: auto;
+}
+
+.but1{
+     margin-left: 45%;
+}
+
+.but2{
+    margin-right: 35%;
+}

@@ -8,26 +8,33 @@
     <script src="js/event.js"></script>
 </head>
 <body>
-<form>
-    <div class="edit"><label>Event Type:</label>
-        <select id="" required>
-            <option disabled selected>Choose One: </option>
-            <option>Seminar on sexuality</option>
-            <option>Workshop on web develpoment</option>
-            <option>Birthday</option>
-            <option>Graduation</option>
-            <option>Baptism</option>
-          </select>><br>
-    <label>Event Title: </label><input type="text"  id="1" required><br>
-    <label>Event Dates:<input type="date" id="2" required> To <input type="date" id="4" required ></label><br>
-    <label>Posting date: <input type="date" id="3" required></label><br>
-    <input type="checkbox">Is registration Required? <br>
-    <input type="checkbox">Is this event associated with family programs <br>
-    <input type="checkbox">Upon registration completion, Are Users to Receive an Auto Generated Email?<br>
-    <input type="checkbox">Is There a Point of Contact? <br>
-    <input type="checkbox">Is there a Hosting Command Point of Contact?<br><br>
-    <center><button type="submit" onclick="sent()">Save</button><button type="reset">Clear</button></center></div>
-</form>
+    <div class="header">
+        <h1> Create a New Event</h1>
+    </div>
+    <div class="form">
+        <fieldset>
+            <form>
+                <label>Event Type:</label>
+                    <select id="select" required>
+                        <option selected>Choose One:</option>
+                        <option>Seminar on sexuality</option>
+                        <option>Workshop on web develpoment</option>
+                        <option>Birthday</option>
+                        <option>Graduation</option>
+                        <option>Baptism</option>
+                    </select>><br>
+                <label>Event Title: </label><input type="text"  id="1" required><br>
+                <label>Event Dates:<input type="date" id="2" required> To <input type="date" id="4" required ></label><br>
+                <label>Posting date: <input type="date" id="3" required></label><br>
+                <input type="checkbox">Is registration Required? <br>
+                <input type="checkbox">Is this event associated with family programs <br>
+                <input type="checkbox">Upon registration completion, Are Users to Receive an Auto Generated Email?<br>
+                <input type="checkbox">Is There a Point of Contact? <br>
+                <input type="checkbox">Is there a Hosting Command Point of Contact?<br><br>
+                <button type="submit" onclick="sent()" class="but1">Save</button><button type="reset" class="but2">Clear</button></div>
+            </form>
+    </fieldset>
+</div>
     
 </body>
 </html>
