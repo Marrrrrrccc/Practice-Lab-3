@@ -3,7 +3,7 @@ function sent(){
     var sDate = document.getElementById("2").value;
     var pDate = document.getElementById("3").value;
     var eDate = document.getElementById("4").value;
-    var select = document.getElementById("select").value;
+    
     
     if( title == "" &&  sDate== ""
     ||  pDate== "" &&  eDate ==""){
