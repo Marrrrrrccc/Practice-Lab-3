@@ -10,7 +10,7 @@ function sent(){
     }else if (sDate>eDate){
         alert("The starting date should come first before the end date");
     }
-    else if(pDate<sDate){
+    else if(pDate>sDate){
         alert("Posting date should come ahead of starting date");
     }
     else{
